@@ -19,6 +19,7 @@ http.createServer(function(req, res) {
     	minute = currentDate.getMinutes();
     	second = currentDate.getSeconds();
     	console.log('Execution time is = ' + hour + ':' + minute + ':' + second );
+    	console.log('!');
 
         fs.readFile(__filename, {
             encoding: 'utf8'
