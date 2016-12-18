@@ -1,3 +1,3 @@
 process.argv.forEach(function(value, index, args) {
-console.log('process.argv[' + index + '] = ' + value);
+	console.log('process.argv[' + index + '] = ' + value);
 });

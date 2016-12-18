@@ -1,0 +1,11 @@
+{
+  "name": "humar-resources-appln",
+  "version": "1.0.0",
+  "description": "Human Resources Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adithya Narayan",
+  "license": "ISC"
+}
