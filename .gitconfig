@@ -1,0 +1,25 @@
+[user]
+	name = Adithya Narayan
+	email = Aditya.Narayana@fisglobal.com
+[alias]
+  noproxy = config --global --remove-section http
+  proxy   = config --global http.proxy "http://Aditya.Narayana:#Action$1@10.253.168.170:8080"
+
+[credential]
+	helper = store
+[merge]
+	tool = p4merge
+[mergetool "p4merge"]
+	path = C:/Program Files/Perforce/p4merge.exe
+	cmd = \"C:/Program Files/Perforce/p4merge.exe\" \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+[diff]
+	tool = winmerge
+[difftool "winmerge"]
+	path = C:/Program Files (x86)/WinMerge/winmergeu.exe
+	cmd = \"C:/Program Files (x86)/WinMerge/WinMergeU.exe\" -e \"$LOCAL\" \"$REMOTE\"
+[gui]
+	recentrepo = C:/Users/Aditya.Narayana/MEAN step by step
+	recentrepo = C:/A5_workspaces/aligneweb
+	recentrepo = C:/Gas_workspaces/GasOps3.0.4.0Dev/gasops
+[difftool]
+	prompt = false
