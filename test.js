@@ -15,3 +15,4 @@ process.chdir('/');
 console.error('chdir: ' + error.message);
 }
 console.log('Current working directory is now ' + process.cwd());
+console.log('\'Origin\' renamed to \'mean\'');
